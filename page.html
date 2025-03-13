@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+  <head>
+    <title>Mélange asiatique</title>
+  </head>
+<body>
+      <nav>
+        <ul>
+          <li>Accueil</li>
+          <li>Notre histoire</li>
+          <li>Réservation</li>
+        </ul>
+      </nav>
+
+      <header>     
+<h1>Asie en folie</h1>
+<img id="devanture" src="restaurant.jpg" alt="déventure Restaurant">
+    </header>
+
+<main>       
+</section>
+    <section id="histoire">
+      <h2>Notre histoire</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+        doloremque amet sit consequuntur earum commodi! Reiciendis, maxime
+        quisquam! Quo unde assumenda tenetur cupiditate atque eos commodi facere
+        architecto aperiam autem! Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Odio accusamus eius iusto laboriosam minima.
+      </p>
+    </section>
+    <section id="plats">
+      <h2>Nos plats</h2>
+      <div>
+        <ul class="contain">
+          <li>
+            <h3>Kimchi</h3>
+            <img  src="kimchi.jpg" alt="kimchi" />
+          </li>
+          <li>            <h3>Bibimbap</h3>
+
+            <img  src="bibimbap.jpg" alt="Bibimbap" />
+          </li>
+          <li>            <h3>Karaage</h3>
+
+            <img  src="karaage.jpg" alt="Karaage">
+          </li>
+          <li>            <h3>Japchae</h3>
+
+            <img  src="japchae.jpg" alt="Japchae" />
+          </li>
+          <li>            <h3>Dumplings</h3>
+
+            <img  src="dumplings.jpg" alt="Dumplings">
+          </li>
+          <li>            <h3>Gimbap</h3>
+
+            <img  src="gimbap.jpg" alt="Gimbap">
+          </li>
+          <li>            <h3>Korean Barbecue</h3>
+
+            <img src="korean barbecue.jpg" alt="korean barbecue">
+          </li>
+          <li>            <h3>Korean Hotpot</h3>
+
+            <img src="koreanhotpot.jpg" alt="Korean hotpot">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="formulaire">
+      <h3>Formulaire de réservation</h3>
+      <!-- <fieldset> -->
+      <article id="name">
+        <label for="name"> Nom: </label>
+        <input type="text" /> <input type="text" />
+      </article>
+
+      <article id="number">
+        <label>
+          Nombre de personnes : <input type="number" min="0" max="30"
+        /></label>
+      </article>
+      <article id="date">
+        <!-- <label> Quelle date de réservation :<input type="date" /></label> -->
+        <label> Date de réservation : </label>
+        <input
+          type="datetime-local"
+          id="reservation-time"
+          name="reservation-time"
+          value="2025-04-30T00:00"
+          min="2025-03-12T00:00"
+          max="2025-04-30T00:00"
+        />
+      </article>
+      <article id="message">
+        <label type="text" id="message">Information complémentaire : </label>
+        <input type="text" name="message" id="message" />
+      </article>
+
+      <button type="je réserve">Valider la réservation</button>
+      <!-- </fieldset> -->
+    </section>
+  </main>
+</body>
+  <footer>
+
+    &copy; 2025 Made with <!--heart--> by Nicole 
+  </footer>
+</html>
